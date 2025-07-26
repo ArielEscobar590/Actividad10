@@ -10,6 +10,7 @@ try:
         return 1
      else:
         return print(conteo(n)) 
+
    print = ("\n--- MENU ---" )
    print = ("1. Invertir una cadena de texto")
    print = ("2. Calcular la suma de los primeros N números naturales")
@@ -17,12 +18,19 @@ try:
    print = ("4. Sumar los dígitos de un número")
    print = ("5. Contar cuántos dígitos tiene un número")
    print = ("6. Salir ")
+   op = int(input("Ingrese una opción"))
 
+  if op == 1:
+  elif op == 2:
+     numop2 = int(input("Ingrese un número"))
+     print(sumanum(numop2))
+  elif op == 3:
+  elif op == 4:
+  elif op == 5:
+  elif op == 6:
 
-  num = int(input("Ingrese un número"))
-
-
-  print(sumanum(num))
+  
+ 
 
 except:
   print("Hubo un error")
