@@ -25,6 +25,8 @@ try:
      numop2 = int(input("Ingrese un número"))
      print(sumanum(numop2))
   elif op == 3:
+     numop3 = int(input("Ingrese un número"))
+     print(conteo(numop3))
   elif op == 4:
   elif op == 5:
   elif op == 6:
